@@ -48,3 +48,43 @@
     width: 100%;
     height: auto;
 }
+
+body {
+    padding: 20px
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+    gap: 10px;
+}
+
+.header {
+    grid-area: header;
+    background-color: gray;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgb(109, 109, 180);
+}
+
+
+.main {
+    grid-area: main;
+    background-color: rgb(254, 156, 65);
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(94, 255, 105);
+    text-align: center;
+}
