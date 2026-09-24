@@ -2,23 +2,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: blanchedalmond;   
+    background-color: #bfbfbf;   
     padding: 15px 30px;
     border-radius: 8px;
     box-shadow: 0 1px 3px black;
 }
 
 .logo {
-    width: 100px;
+    width: 70px;
     height: auto;
 }
 .links {
     display: flex;
     gap: 20px;
+    list-style: none;
 }
 
 .links a{
     text-decoration: none;
+    color: #333;
 }
 
 .links a:hover {
@@ -69,24 +71,36 @@ h2 {
 
 .header {
     grid-area: header;
-    background-color: gray;
+    background-color: #bfbfbf;
+    padding: 15px;
+    border-radius: 7px;
 }
 
 .sidebar {
     grid-area: sidebar;
-    background-color: rgb(109, 109, 180);
+    background-color: #bfbfbf;
+    padding: 15px;
+    border-radius: 6px;
 }
 
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+}
 
 .main {
     grid-area: main;
-    background-color: rgb(254, 156, 65);
+    background-color: #bfbfbf;
+    padding: 15px;
+    border-radius: 7px;
 }
 
 .footer {
     grid-area: footer;
-    background-color: rgb(94, 255, 105);
+    background-color: #bfbfbf;
     text-align: center;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .gallery-grid {
@@ -98,7 +112,6 @@ h2 {
 .gallery-item {
     position: relative;
     height: 200px;
-    border-radius: 5px;
 }
 
 .caption {
@@ -110,15 +123,82 @@ h2 {
     color: white;
     text-align: center;
     transition: height 0.5s;
+    border-radius: 7px;
 }
 
 .gallery-item img {
     width: 100%;
     height: 100%;
     display: block;
+    border-radius: 5px;
 }
 
 .gallery-item:hover .caption{
     height: 30px;
     padding-top: 10px;
+}
+
+.mainContent {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.project-area {
+    background-color:#bfbfbf;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.project-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.project-card {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 6px ;
+}
+
+.project-card p {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.project-card button {
+    padding: 5px;
+    transition: background-color 0.5s;
+}
+
+.project-card button:hover {
+    background-color: aquamarine;
+}
+
+.sidebar2 {
+    background-color: #bfbfbf;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.footer2 {
+    background-color: #bfbfbf;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
 }
