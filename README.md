@@ -3,12 +3,12 @@
 **Group:** SE-2527
 **Live Demo:** [Click here to view live site](https://glore81.github.io/Web-dev2/) 
 ---
-## 📌 Project Overview
+## Project Overview
 This project demonstrates modern, responsive CSS layout techniques using **Flexbox** and **CSS Grid**.
 
 ---
 
-## 🚀 Tasks Breakdown
+## Tasks Breakdown
 
 ### Part 1: Flexbox Layouts
 * **Task 0: Navigation Bar (`task0.html`)**
@@ -39,6 +39,6 @@ This project demonstrates modern, responsive CSS layout techniques using **Flexb
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 * **HTML:** Semantic markup (`<header>`, `<main>`, `<section>`, `<aside>`, `<footer>`).
 * **CSS:** Advanced Flexbox alignment, CSS Grid Areas, hover transitions, and responsive styling.
